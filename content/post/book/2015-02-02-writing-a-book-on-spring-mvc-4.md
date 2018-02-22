@@ -2,7 +2,7 @@
 categories:
 - Master Spring MVC 4
 date: 2015-02-02T00:00:00Z
-excerpt: I'm writing a book on Spring MVC 4 called 'Mastering Spring MVC 4' for Packt
+description: I'm writing a book on Spring MVC 4 called 'Mastering Spring MVC 4' for Packt
   Publishing
 redirect_from: /spring/2015/02/02/writing-a-book-on-spring-mvc-4.html
 tags:

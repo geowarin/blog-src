@@ -2,7 +2,7 @@
 categories:
 - Master Spring MVC 4
 date: 2015-03-01T00:00:00Z
-excerpt: In the first chapter, you will learn how to bootstrap your application effectively
+description: In the first chapter, you will learn how to bootstrap your application effectively
   and how to leverage spring boot to get started with spring MVC in a couple of minutes
 redirect_from: /spring/2015/03/01/chapter-1-setting-up-a-spring-web-application-in-no-time.html
 tags:

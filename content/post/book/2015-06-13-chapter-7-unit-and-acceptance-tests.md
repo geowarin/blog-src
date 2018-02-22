@@ -2,7 +2,7 @@
 categories:
 - Master Spring MVC 4
 date: 2015-06-13T00:00:00Z
-excerpt: In this chapter we will learn how to test our application with spring test
+description: In this chapter we will learn how to test our application with spring test
   and fluentlenium as well as with geb and spock.
 redirect_from: /spring/2015/06/13/chapter-7-unit-and-acceptance-tests.html
 tags:

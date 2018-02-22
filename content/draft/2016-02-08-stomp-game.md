@@ -3,7 +3,7 @@ categories:
 - websocket
 date: 2016-02-08T00:00:00Z
 draft: true
-excerpt: Stomp games
+description: Stomp games
 tags:
 - game
 - stomp

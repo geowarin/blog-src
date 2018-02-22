@@ -2,7 +2,7 @@
 categories:
 - javascript
 date: 2014-12-27T00:00:00Z
-excerpt: How to set up tests and code coverage for in browser unit tests with blanketjs
+description: How to set up tests and code coverage for in browser unit tests with blanketjs
 redirect_from: javascript/2014/12/27/coverage-with-gulp-phantom-and-mocha.html
 tags:
 - gulp

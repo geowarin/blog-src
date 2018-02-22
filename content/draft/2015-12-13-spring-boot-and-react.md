@@ -4,7 +4,7 @@ categories:
 - react
 date: 2015-12-13T00:00:00Z
 draft: true
-excerpt: The perfect setup for Spring boot and React
+description: The perfect setup for Spring boot and React
 tags:
 - spring
 - spring-boot

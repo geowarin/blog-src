@@ -3,7 +3,7 @@ categories:
 - docker
 date: 2016-01-16T00:00:00Z
 draft: true
-excerpt: Docker is a very cool tool.
+description: Docker is a very cool tool.
 tags:
 - docker
 - tricks

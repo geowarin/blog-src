@@ -2,7 +2,7 @@
 categories:
 - Master Spring MVC 4
 date: 2015-03-27T00:00:00Z
-excerpt: In the second chapter, we will design a twitter search engine, learning the
+description: In the second chapter, we will design a twitter search engine, learning the
   principles of MVC and DDD along the way.
 redirect_from: /spring/2015/03/27/chapter-2-mastering-the-mvc-architecture.html
 tags:

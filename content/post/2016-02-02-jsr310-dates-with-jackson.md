@@ -2,7 +2,7 @@
 categories:
 - spring-boot
 date: 2016-02-02T00:00:00Z
-excerpt: The DateTime API in Java 8 is awesome but default Jackson serialization is
+description: The DateTime API in Java 8 is awesome but default Jackson serialization is
   not. Let's fix that!
 tags:
 - spring-boot

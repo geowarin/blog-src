@@ -3,7 +3,7 @@ categories:
 - CI
 date: 2016-03-01T00:00:00Z
 draft: true
-excerpt: How to make the jenkins pipeline work with jenkins (on a Mac)
+description: How to make the jenkins pipeline work with jenkins (on a Mac)
 tags:
 - docker
 - jenkins

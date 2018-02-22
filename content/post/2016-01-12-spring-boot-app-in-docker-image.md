@@ -2,7 +2,7 @@
 categories:
 - docker
 date: 2016-01-12T00:00:00Z
-excerpt: With Gradle, you can create a Docker image of your Spring Boot application
+description: With Gradle, you can create a Docker image of your Spring Boot application
   and ship it instead of shipping a jar
 tags:
 - spring-boot

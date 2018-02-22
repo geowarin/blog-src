@@ -2,7 +2,7 @@
 categories:
 - Master Spring MVC 4
 date: 2015-03-27T00:00:00Z
-excerpt: In this chapter, we will implement file upload and see how to handle errors
+description: In this chapter, we will implement file upload and see how to handle errors
   in Spring MVC
 redirect_from: /spring/2015/04/10/chapter-4-file-upload-error-handling.html
 tags:

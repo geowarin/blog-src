@@ -3,7 +3,7 @@ categories:
 - 12-factors
 - logging
 date: 2016-01-11T00:00:00Z
-excerpt: Redirect your Spring boot logs to Elastic Search with a simple logback appender
+description: Redirect your Spring boot logs to Elastic Search with a simple logback appender
 tags:
 - 12-factors
 - logs

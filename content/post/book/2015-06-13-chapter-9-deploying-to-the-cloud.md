@@ -2,7 +2,7 @@
 categories:
 - Master Spring MVC 4
 date: 2015-06-13T00:00:00Z
-excerpt: In this chapter, we’ll take a tour of the different cloud providers, understand
+description: In this chapter, we’ll take a tour of the different cloud providers, understand
   the challenges and benefits of a distributed architecture and we’ll deploy our web
   application on Heroku.
 redirect_from: /spring/2015/06/13/chapter-9-deploying-to-the-cloud.html

@@ -3,7 +3,7 @@ categories:
 - dynamic-programming
 date: 2016-02-08T00:00:00Z
 draft: true
-excerpt: Dynamic programming
+description: Dynamic programming
 tags:
 - dynamic-programming
 title: Dynamic programming

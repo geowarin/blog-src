@@ -2,7 +2,7 @@
 categories:
 - Master Spring MVC 4
 date: 2015-06-13T00:00:00Z
-excerpt: In this chapter, we’ll learn how to secure our web application and also how
+description: In this chapter, we’ll learn how to secure our web application and also how
   to cope with the security challenges of modern, distributed web applications.
 redirect_from: /spring/2015/06/13/chapter-6-securing-your-application.html
 tags:

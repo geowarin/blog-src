@@ -2,7 +2,7 @@
 categories:
 - Master Spring MVC 4
 date: 2015-06-13T00:00:00Z
-excerpt: In this chapter we will be looking at different techniques to improve our
+description: In this chapter we will be looking at different techniques to improve our
   application's performances using cache, gzipping, etags, async and websockets
 redirect_from: /spring/2015/06/13/chapter-8-optimizing-your-requests.html
 tags:

@@ -2,7 +2,7 @@
 categories:
 - Master Spring MVC 4
 date: 2015-06-13T00:00:00Z
-excerpt: In this chapter, we will have a look a the principles of RESTful API and
+description: In this chapter, we will have a look a the principles of RESTful API and
   learn how to craft one using Spring MVC
 redirect_from: /spring/2015/06/13/chapter-5-crafting-a-restful-application.html
 tags:

@@ -2,7 +2,7 @@
 categories:
 - blogging
 date: 2014-01-09T23:00:00Z
-excerpt: What is Jekyll and how to migrate from worpress
+description: What is Jekyll and how to migrate from worpress
 tags:
 - wordpress
 - jekyll

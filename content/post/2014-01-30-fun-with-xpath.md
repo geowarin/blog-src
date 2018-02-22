@@ -3,7 +3,7 @@ categories:
 - xpath
 - java
 date: 2014-01-30T00:00:00Z
-excerpt: How to select nodes with xPath and keep the file structure of the original
+description: How to select nodes with xPath and keep the file structure of the original
   document in java with dom4j
 tags:
 - xpath

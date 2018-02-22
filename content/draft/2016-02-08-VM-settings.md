@@ -3,7 +3,7 @@ categories:
 - VM
 date: 2016-02-08T00:00:00Z
 draft: true
-excerpt: Heap vs Perm
+description: Heap vs Perm
 tags:
 - memory
 - java
