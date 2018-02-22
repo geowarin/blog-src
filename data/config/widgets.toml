@@ -1,0 +1,18 @@
+[about]
+title = ""
+description = ""
+logo = "/images/logo.png"
+
+[recent_posts]
+title = ""
+length = 10
+excludeTypes = ["page"]
+
+[social_menu]
+title = "Social"
+platforms = ["github","facebook","twitter","instagram","email","codepen","gitlab","linkedin","telegram","google_scholar"]
+
+[taxonomy_cloud]
+title = ""
+taxonomy = "categories"
+shuffle = true
