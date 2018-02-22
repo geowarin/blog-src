@@ -1,0 +1,14 @@
+---
+layout: default
+title: Categories
+permalink: /categories/
+redirect_from: /tag/*
+---
+
+<div id="categories">
+  <ul>
+  {% for category in site.categories %}
+    <li><a href="/categories/{{category | first | slugify }}">{{category | first}}</a></li>
+  {% endfor %}
+  </ul>
+</div>

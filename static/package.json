@@ -1,0 +1,28 @@
+{
+  "name": "hueman",
+  "version": "1.0.0",
+  "description": "",
+  "main": "gulpfile.js",
+  "scripts": {
+    "start": "gulp watch",
+    "predeploy": "gulp build",
+    "deploy": "git push origin master"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "front-matter": "^1.0.0",
+    "glob": "^5.0.10",
+    "gulp": "^3.9.0",
+    "gulp-babel": "^5.2.1",
+    "gulp-bg": "0.0.5",
+    "gulp-concat": "^2.6.0",
+    "gulp-notify": "^2.2.0",
+    "gulp-sourcemaps": "^1.5.2",
+    "gulp-stylus": "^2.0.4",
+    "lodash": "^3.9.3",
+    "nib": "^1.1.0",
+    "require-dir": "^0.3.0",
+    "underscore.string": "^3.1.1"
+  }
+}
