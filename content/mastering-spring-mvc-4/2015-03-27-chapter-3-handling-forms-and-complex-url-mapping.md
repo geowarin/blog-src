@@ -1,6 +1,4 @@
 ---
-categories:
-- Master Spring MVC 4
 date: 2015-03-27T00:00:00Z
 description: In this chapter, we will create a beautiful profile form with server and
   client side validation

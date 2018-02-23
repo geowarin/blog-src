@@ -46,7 +46,7 @@ showReadingTime = true
 taxonomyCloudShuffle = true
 
 [params.sidebar]
-enable = true
+enable = false
 sticky = true
 
 [params.widgets]
@@ -96,7 +96,7 @@ identifier = "blog"
 url = "/"
 
 [[menu.main]]
-name = "Archives"
+name = "Archive"
 weight = -20
 identifier = "archive"
 url = "/archive"
