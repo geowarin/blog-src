@@ -51,7 +51,7 @@ sticky = true
 
 [params.widgets]
 homepage = ["recent_posts"]
-sidebar = ["about","taxonomy_cloud"]
+sidebar = ["about", "taxonomy_cloud"]
 
 [params.opengraph.facebook]
 admins = [] # array of Facebook IDs
@@ -90,10 +90,28 @@ page = "/:slug/"
 post = "/:title/"
 
 [[menu.main]]
-name = "Repo"
+name = "Blog"
+weight = -30
+identifier = "blog"
+url = "/"
+
+[[menu.main]]
+name = "Archives"
+weight = -20
+identifier = "archive"
+url = "/archive"
+
+[[menu.main]]
+name = "Book"
 weight = -10
+identifier = "book"
+url = "/mastering-spring-mvc-4"
+
+[[menu.main]]
+name = "Repo"
+weight = 0
 identifier = "repository"
-url = "https://github.com/MunifTanjim/minimo"
+url = "https://github.com/geowarin/geowarin.github.com"
 
 [blackfriday]
 hrefTargetBlank = true
