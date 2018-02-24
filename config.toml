@@ -26,7 +26,7 @@ title404 = "Nothing's here!"
 [params.assets]
 favicon = "favicon.ico"
 customCSS = ["css/custom.css"]
-customJS = ["js/custom.js"]
+customJS = []
 gopher = "" # used in 404 template ( Generator: https://gopherize.me )
 
 [params.copyright]
@@ -72,7 +72,7 @@ titleSeparator = "•"
 github = "geowarin"
 # gitlab = "geowarin"
 # instagram = "geowarin"
-linkedin = "muniftanjim"
+linkedin = "geowarin"
 twitter = "geowarin"
 # telegram = "geowarin"
 # google_scholar = "qc6CJjYAAAAJ"

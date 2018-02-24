@@ -1,0 +1,20 @@
+If you liked this article, please share! ❤️
+
+<div class="article-share-links">
+
+    <a data-provider="twitter" href="https://twitter.com/intent/tweet?url={{ .Permalink }}&via=geowarin&text={{ .Title }}"
+       class="article-share twitter" target="_blank" title="Share on Twitter">
+        {{- partial "svg/icons" "twitter" -}}
+    </a>
+    <a data-provider="linkedIn" href="https://www.linkedin.com/shareArticle?mini=true&url={{ .Permalink }}&title={{ .Title }}"
+       class="article-share linkedin" target="_blank" title="Share on LinkedIn">
+        {{- partial "svg/icons" "linkedin" -}}
+    </a>
+    <a data-provider="facebook" href="https://www.facebook.com/sharer/sharer.php?u={{ .Permalink }}&t={{ .Title }}"
+       class="article-share facebook" target="_blank" title="Share on Facebook">
+        {{- partial "svg/icons" "facebook" -}}
+    </a>
+    <a data-provider="google" href="https://plus.google.com/share?&url={{ .Permalink }}" class="article-share google" target="_blank" title="Share on Google+">
+        {{- partial "svg/icons" "google_scholar" -}}
+    </a>
+</div>
