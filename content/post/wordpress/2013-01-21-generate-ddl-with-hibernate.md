@@ -9,6 +9,8 @@ tags:
 - DDL
 - hibernate
 title: Generate DDL with hibernate
+aliases:
+    - /generate-ddl-with-hibernate.html
 ---
 
 I don't know if it's a well known feature but there is a bunch of methods on hibernate [Configuration](http://docs.jboss.org/hibernate/orm/3.5/api/org/hibernate/cfg/Configuration.html) class which will produce [DDL](http://en.wikipedia.org/wiki/Data_definition_language) for your database according to the dialect in use.

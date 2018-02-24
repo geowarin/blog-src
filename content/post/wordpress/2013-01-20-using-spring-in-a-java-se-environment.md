@@ -13,6 +13,8 @@ tags:
 - spring-test
 title: Using spring in a Java SE environment and implementing the chain of responsibility
   pattern
+aliases:
+    - /using-spring-in-a-java-se-environment.html
 ---
 
 In this post I will show you how to use spring 3.0 [Java based configuration](http://www.springsource.org/javaconfig) in a Java SE environment, taking advantage of spring autowiring to implement the [chain of responsibility ](http://en.wikipedia.org/wiki/Chain-of-responsibility_pattern)design pattern with components and services in a simple project. We will also use spring's [PropertySourcesPlaceholderConfigurer](http://static.springsource.org/spring/docs/3.2.x/javadoc-api/org/springframework/context/support/PropertySourcesPlaceholderConfigurer.html) to inject custom properties into our beans with the [@Value](http://static.springsource.org/spring/docs/3.2.x/javadoc-api/org/springframework/beans/factory/annotation/Value.html) annotation and test our application with spring-test.

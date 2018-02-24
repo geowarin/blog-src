@@ -13,6 +13,8 @@ tags:
 - spring-java-config
 - spring-test
 title: Using Spring Data JPA in a Java SE environment and run tests with dbUnit
+aliases:
+    - /using-spring-data-jpa-in-a-java-se-environment-and-run-tests-with-dbunit.html
 ---
 
 This blog post follows my previous articles on using [hibernate as a standalone JPA provider](http://geowarin.wordpress.com/2013/01/20/using-hibernate-as-a-jpa-provider-in-a-java-se-environment-and-run-tests-with-dbunit/) and how to use [spring in a Java SE](http://geowarin.wordpress.com/2013/01/20/using-spring-in-a-java-se-environment-and-implementing-the-chain-of-responsibility-pattern/) environment.

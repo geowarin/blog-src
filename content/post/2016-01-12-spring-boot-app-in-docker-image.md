@@ -7,6 +7,8 @@ description: With Gradle, you can create a Docker image of your Spring Boot appl
 tags:
 - spring-boot
 title: Build a Docker image of your Spring Boot app
+aliases:
+    - /spring-boot-app-in-docker-image.html
 ---
 
 If you like having a self-contained application as a deliverable

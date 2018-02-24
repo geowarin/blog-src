@@ -9,6 +9,8 @@ tags:
 - jackson
 - jsr-310
 title: Correctly handle JSR-310 (java 8) dates with Jackson
+aliases:
+    - /jsr310-dates-with-jackson.html
 ---
 
 If you are starting a Spring Boot project today, chances are that you want to use

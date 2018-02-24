@@ -10,6 +10,8 @@ tags:
 - redux
 - shasta
 title: Consuming APIs with Redux, the Shasta way
+aliases: 
+ - /redux-data-with-shasta.html
 ---
 
 Since React is just the view layer of your front-end stack, the community had to

@@ -9,6 +9,8 @@ tags:
 - xpath
 - dom4j
 title: Fun with xpath
+aliases:
+    - /fun-with-xpath.html
 ---
 
 I had fun today at work when I had to design a program that allows users to select nodes with xPath but keep the same hierarchical structure as the original xml file.

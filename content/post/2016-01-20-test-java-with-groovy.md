@@ -10,6 +10,8 @@ tags:
 - groovy
 - featured
 title: Test your Java application with Groovy
+aliases:
+    - /test-java-with-groovy.html
 ---
 
 I think Groovy is a wonderful language.

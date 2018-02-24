@@ -9,6 +9,8 @@ tags:
 - logs
 - elasticsearch
 title: Spring boot logs in Elastic Search with fluentd
+aliases:
+    - /spring-boot-logs-in-elastic-search.html
 ---
 
 If you deploy a lot of micro-services with Spring Boot (or any other technology),

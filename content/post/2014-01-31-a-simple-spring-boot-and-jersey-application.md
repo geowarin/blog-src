@@ -12,6 +12,8 @@ tags:
 - spring-boot
 - jersey
 title: A simple Spring Boot and Jersey Application
+aliases:
+    - /a-simple-spring-boot-and-jersey-application.html
 ---
 
 Spring boot RC1 [is available](https://spring.io/blog/2014/01/22/spring-boot-1-0-0-rc1-released).

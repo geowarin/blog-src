@@ -8,6 +8,8 @@ description: RethinkDB is a great database engine allowing you to receive live u
 tags:
 - chat
 title: A simple chat with Spring Boot and RethinkDB
+aliases:
+    - /spring-boot-and-rethinkdb.html
 ---
 
 The Java driver for [RethinkDB](https://www.rethinkdb.com/) has recently

@@ -10,6 +10,8 @@ tags:
 - async
 - featured
 title: Completable futures with Spring async
+aliases:
+    - /completable-futures-with-spring-async.html
 ---
 
 Since version 8, java has a way better abstraction than `java.util.Future`

@@ -10,6 +10,8 @@ tags:
 - servlet 3.0
 - tomcat
 title: Basic configuration for Jetty and tomcat maven plugins
+aliases:
+    - /basic-configuration-for-jetty-and-tomcat-maven-plugins.html
 ---
 
 This is a quick memento on how to set up [tomcat7-maven-plugin](http://tomcat.apache.org/maven-plugin-2.0/) and [jetty-maven plugin](http://wiki.eclipse.org/Jetty/Feature/Jetty_Maven_Plugin) (current version is 8).

@@ -11,6 +11,8 @@ tags:
 - spring-mvc
 - featured
 title: Complete example of a Spring MVC 3.2 project
+aliases:
+    - /complete-example-of-a-spring-mvc-3-2-project.html
 ---
 
 You want to get started with Spring MVC 3.2 with a complete XML-less configuration? Have a cool simple project with a lot of the nice-to-have features?

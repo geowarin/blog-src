@@ -14,6 +14,8 @@ tags:
 - groovy
 - featured
 title: Spring Boot and React hot loader
+aliases:
+    - /spring-boot-and-react-hot.html
 ---
 
 When I develop web applications, I love using React.

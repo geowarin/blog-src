@@ -8,6 +8,8 @@ tags:
 - book
 - review
 title: Review of Learning Spring Boot
+aliases:
+    - /review-learning-spring-boot.html
 ---
 
 Today, I'll be reviewing the first book ever written on Spring Boot, [Learning Spring Boot](https://www.packtpub.com/application-development/learning-spring-boot), by Greg L. Turnquist.

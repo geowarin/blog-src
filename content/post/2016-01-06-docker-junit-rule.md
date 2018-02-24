@@ -9,6 +9,8 @@ tags:
 - junit
 - junit-rule
 title: Integration tests with a Docker JUnit Rule
+aliases:
+    - /docker-junit-rule.html
 ---
 
 When writing integration tests, you might have to run a third party server

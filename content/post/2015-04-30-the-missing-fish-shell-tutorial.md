@@ -10,6 +10,8 @@ tags:
 - tuning
 - featured
 title: The missing fish shell tutorial
+aliases:
+    - /completable-futures-with-spring-async.html
 ---
 
 I must admit it after years of trying to avoid writing script shells: I'm not a big fan of bash.

@@ -8,6 +8,8 @@ tags:
 - java
 - developer
 title: The modern java developer
+aliases:
+    - /modern-java-developer.html
 ---
 
 My dear colleague Fruzenshtein asked me what

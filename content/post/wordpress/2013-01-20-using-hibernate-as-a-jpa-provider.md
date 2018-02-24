@@ -12,6 +12,8 @@ tags:
 - JPA
 title: Using Hibernate as a JPA provider in a Java SE environment and run tests with
   dbUnit
+aliases:
+    - /using-hibernate-as-a-jpa-provider.html
 ---
 
 Sometimes it can be useful to use JPA in a minimal environment to test your model or just if you're curious of how things work in your DAO layer behind the scenes. In this blog post, we will create a simple project then see how you can use [dbUnit ](http://www.dbunit.org/)to run some unit tests on your database.

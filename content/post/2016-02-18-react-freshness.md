@@ -8,6 +8,8 @@ tags:
 - react
 - fresh
 title: React freshness
+aliases:
+    - /react-freshness.html
 ---
 
 In the javascript community, some people have experienced [javascript fatigue](https://medium.com/@ericclemmons/javascript-fatigue-48d4011b6fc4#.4ex2kn77n).

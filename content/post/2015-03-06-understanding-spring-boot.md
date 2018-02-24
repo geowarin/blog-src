@@ -12,6 +12,8 @@ tags:
 - code-review
 - featured
 title: Understanding Spring Boot
+aliases:
+    - /understanding-spring-boot.html
 ---
 
 Spring boot is an opinionated library that allows to create executable Spring applications with a convention over configuration approach.

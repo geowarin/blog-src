@@ -9,6 +9,8 @@ tags:
 - social
 - login
 title: Social login with Spring
+aliases:
+    - /social-login-with-spring.html
 ---
 
 Nowadays, it's getting rare and even a bit annoying when a service rolls up its own

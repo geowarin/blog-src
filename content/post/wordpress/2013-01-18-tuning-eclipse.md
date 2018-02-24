@@ -7,6 +7,8 @@ redirect_from: 2013/01/18/tuning-eclipse/
 tags:
 - eclipse
 title: Tuning eclipse
+aliases:
+    - /tuning-eclipse.html
 ---
 
 This is a compilation of resources I use to configure eclipse.
