@@ -24,7 +24,7 @@ Some of them felt right at all time, some of them I hope not to make again.
 
 # The stack
 
-Our project was a SaaS management application. We wanted our users to have a great experience to distinguish ourselves
+Our project was a SaaS management application. We wanted our users to have a great experience, to distinguish ourselves
 from the competition, and improve their productivity. 
 
 We used Kotlin and Spring Boot on the backend, React and Typescript on the frontend.
