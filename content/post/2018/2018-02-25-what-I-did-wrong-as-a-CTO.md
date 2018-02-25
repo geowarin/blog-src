@@ -46,7 +46,7 @@ but for the past few months I can say without reserve that Kotlin has been nothi
 Kotlin is Java, had it been designed in the past few years instead of having 20 years of legacy.
 Kotlin is Scala, had it been designed to be a productivity powerhouse instead of an academic language.
 
-It is pragmatic, elegant and with a very few footguns. I would be really painful for me to start a new project with
+It is pragmatic, elegant and with a very few footguns. It would be really painful for me to start a new project with
 Java instead of Kotlin.
 
 ## Postgres
