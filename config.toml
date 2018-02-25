@@ -99,19 +99,19 @@ url = "/"
 name = "Archive"
 weight = -20
 identifier = "archive"
-url = "/archive"
+url = "/archive/"
 
 [[menu.main]]
 name = "Book"
 weight = -10
 identifier = "book"
-url = "/mastering-spring-mvc-4"
+url = "/mastering-spring-mvc-4/"
 
 [[menu.main]]
 name = "Repo"
 weight = 0
 identifier = "repository"
-url = "https://github.com/geowarin/geowarin.github.com"
+url = "https://github.com/geowarin/blog-src"
 
 [blackfriday]
 hrefTargetBlank = true
