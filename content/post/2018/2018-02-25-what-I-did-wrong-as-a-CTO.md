@@ -166,7 +166,7 @@ All in all, choosing a state library for React is hard.
 Things to watch for in this area are [immer](https://github.com/mweststrate/immer) and [unstated](https://github.com/jamiebuilds/unstated). 
 
 I still do not have the definitive answer to the question of state management in a React application.
-Remember there are no silver bullet and be careful when you design your frontend architecture early on. 
+Remember there are no silver bullets and be careful when you design your frontend architecture early on. 
 
 ## REST
 
