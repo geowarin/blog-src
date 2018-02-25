@@ -1,10 +1,16 @@
 ---
 title: "What I Did Wrong as a CTO"
 date: 2018-02-25T11:33:45+01:00
-draft: true
 description: I spent one year as a CTO for a startup. Here are the technical decisions I came to regret
     and the one I would make again in my next project
 toc: true
+tags:
+ - kotlin
+ - react
+ - architecture
+ - rest
+categories:
+ - architecture
 ---
 
 Being a CTO in a startup is much more than the technical side.  
