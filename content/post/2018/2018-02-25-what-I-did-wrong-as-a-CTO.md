@@ -120,7 +120,7 @@ For my JS build, I don't want fancy configuration and a ton of plugins.
 I want something like spring-boot, with good defaults, and I want it to be fast out-of-the-box.
 
 We used [fuse-box](https://fuse-box.org/), a very good bundler with an efficient cache. 
-It is written in typescript and support this language out-of-the box. Two decisive reasons for me.
+It is written in typescript and supports this language out-of-the box. Two decisive reasons for me.
 
 I never regretted trusting the fuse-box team, they're doing a awesome job and they really listen to their community.   
 
