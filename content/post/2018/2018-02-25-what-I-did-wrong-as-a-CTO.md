@@ -144,7 +144,7 @@ Those were compelling reasons for the choice of this library when I started the 
 I have been working with Redux intensively on a past project and I found it required a lot of design and tools (boilerplate)
 to get the simplest features working.
 
-On the other side of the spectrum, we have Mobx. You feel really powerful when you design your first stores, because
+On the other side of the spectrum, we have Mobx. You feel really strong when you design your first stores, because
 it just works.
 
 On the other hand, edge cases are rough. Some libraries like react-table would just not behave.
@@ -232,10 +232,10 @@ start of the day to boot it, and having a slightly worst developer experience is
 ## Server-Side Rendering
 
 At the beginning of the project, I was sure I could take advantage of SSR.
-I had set up a few projects in JS that leveraged SSR in the past and studied libraries like 
+I had set up a few projects in JS that leveraged SSR in the past, and studied libraries like 
 [nextjs](https://zeit.co/blog/next) carefully.
 
-On the JVM, it is a bit less common, but I managed to pull off something using [J2V8](https://github.com/eclipsesource/J2V8/).
+On the JVM, it is a bit less common, but I managed to pull something off using [J2V8](https://github.com/eclipsesource/J2V8/).
 
 The truth is SSR is a trade-off and I think most of web applications don't need to invest precious time in server-rendered
 javascript.
