@@ -1,8 +1,8 @@
 ---
 title: "What I Did Wrong as a CTO"
 date: 2018-02-25T11:33:45+01:00
-description: I spent one year as a CTO for a startup. Here are the technical decisions I came to regret
-    and the one I would make again in my next project
+description: I spent one year as a CTO for a startup. Here are some technical decisions I came to regret
+    and those that I would make again in my next project
 toc: true
 tags:
  - kotlin
@@ -73,11 +73,12 @@ I feel like I was never really in control of my schema when using JPA or other O
 
 ## Typescript and React
 
-I've worked all my life with type-safe languages. I am 100% certain that it makes me more productive.
+For most of my career, I've worked with type-safe languages. I am 100% certain that they make me more productive.
 I can refactor my code and I have tremendous tools that empower me.
 
-I have worked on a JS project without types for 2 years. It was a successful project with a lot of javascript and a great UX,
-but it was hard to crank up new features or change old code.
+On the other hand, I have worked on a JS project without types for 2 years. 
+It was a successful project with a lot of javascript and a great UX, but it was hard to crank up new features or 
+change old code.
 
 I will never start a new project without typescript or flow. My heart tells me typescript is the right tool for me, but
 choosing any of the type-safe languages that compile to JS will make you more productive.
@@ -120,7 +121,7 @@ For my JS build, I don't want fancy configuration and a ton of plugins.
 I want something like spring-boot, with good defaults, and I want it to be fast out-of-the-box.
 
 We used [fuse-box](https://fuse-box.org/), a very good bundler with an efficient cache. 
-It is written in typescript and supports this language out-of-the box. Two decisive reasons for me.
+It is written in typescript and readily supports this language. Two decisive reasons for me.
 
 I never regretted trusting the fuse-box team, they're doing a awesome job and they really listen to their community.   
 
@@ -177,7 +178,7 @@ I think it involves a lot of design and bikeshedding.
 When a developer is in charge of a new feature, they always have a lot of choices to make:
 
 - Should I add attributes to an existing REST resource? (overfetching)
-- Should I add a new REST resources? (duplication)
+- Should I add a new REST resource? (duplication)
 - Should aggregate resources on the backend or the frontend? (inconsistency)
 
 And I did not even talk about HATEOAS or documentation.
@@ -191,7 +192,7 @@ I feel that thinking your API in terms of a cluster of objects comes more natura
 It favors emergent design and it encourages your developers and your business to get together and figure out the 
 [aggregates](https://www.martinfowler.com/bliki/DDD_Aggregate.html) in your model.
 
-If you want to go down this road early on and not even bother writing a fully-fledged backend server I would review
+If you want to go down this road early on and not even bother writing a fully-fledged backend server, I would review
 [postgraphile](https://github.com/graphile/postgraphile) and [graphcool](https://www.graph.cool) as great starting points.
 
 
@@ -256,7 +257,7 @@ For me, the bare minimum number of modules is 4:
 
 - `model`: mapping with your database and helpers
 - `services`: fetching and updating your database, only exports higher-level functions like Graphql endpoints
-- `web-backend`: things that depends on HTTP libraries
+- `web-backend`: things that depend on HTTP libraries
 - `web-frontend`: JS stuff
 
 Modules are a great way to enforce architectural decisions. 
