@@ -31,7 +31,7 @@ We used Kotlin and Spring Boot on the backend, React and Typescript on the front
 
 I'm really comfortable with those technologies and that's why I chose them.
 
-Even if you're only using parts of our stack, I hope at least part of the things I learned will be useful too you.
+Even if you're only using parts of our stack, I hope that at least some parts of the things I learned will be useful too you.
 
 # It felt right (would do again in my next project)
 
