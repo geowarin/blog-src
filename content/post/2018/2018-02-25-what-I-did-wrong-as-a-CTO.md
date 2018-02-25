@@ -93,7 +93,7 @@ too much of a burden.
 ## Using a PaaS
 
 Don't waste time setting up docker containers and a Kubernetes cluster. You just started your project, it does not have
-to handle billions of request. You just need to publish your project in one command without headaches.
+to handle billions of requests. You just need to publish your project in one command without headaches.
 
 We used [Pivotal Cloud Foundry](https://pivotal.io/platform) and we would type `cf push theApplication.jar` and be done 
 with our deployment.
