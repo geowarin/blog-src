@@ -153,7 +153,7 @@ After using it for a year, I can probably list a few rules of thumbs:
 
 - Create wrappers using `<Observer />` for libraries using `shouldComponentUpdate` aggressively, because they will mess up
 with the expectations of the developers
-- Come up with strategies for serialization and deserialization early in the project with libraries like [serilizr](https://github.com/mobxjs/serializr).
+- Come up with strategies for serialization and deserialization early in the project with libraries like [seriliazr](https://github.com/mobxjs/serializr).
 
 But all of this has a cost in terms of code and mobx has a somewhat hidden learning curve that make it difficult to grasp for junior
 developers. 
