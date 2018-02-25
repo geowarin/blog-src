@@ -261,7 +261,7 @@ For me, the bare minimum number of modules is 4:
 
 Modules are a great way to enforce architectural decisions. 
 Moreover, you can only use the `internal` [keyword](https://kotlinlang.org/docs/reference/visibility-modifiers.html) 
-in Kotlin by splitting your code in modules.
+in Kotlin by splitting your code into modules.
 
 You can also split the service layer into smaller modules, as you would if you were designing micro-services,
 and still use them in your monolith.
