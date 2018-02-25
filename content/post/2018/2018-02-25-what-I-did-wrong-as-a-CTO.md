@@ -69,7 +69,7 @@ Both are very well designed and it felt liberating to be in control of the SQL o
 I came to realize how powerful SQL really is. 
 All of a sudden it was a world with window functions, views, schemas, users, and more, that was open to us. 
 
-I fell like I was never really in control of my schema when using JPA or other ORM tools in the past.
+I feel like I was never really in control of my schema when using JPA or other ORM tools in the past.
 
 ## Typescript and React
 
