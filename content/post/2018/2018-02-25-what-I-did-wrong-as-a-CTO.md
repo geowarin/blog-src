@@ -25,13 +25,13 @@ Some of them felt right at all time, some of them I hope not to make again.
 # The stack
 
 Our project was a SaaS management application. We wanted our users to have a great experience to distinguish ourselves
-from the competition and improve their productivity. 
+from the competition, and improve their productivity. 
 
 We used Kotlin and Spring Boot on the backend, React and Typescript on the frontend.
 
 I'm really comfortable with those technologies and that's why I chose them.
 
-Even if you're only using parts of our stack, I hope that at least some parts of the things I learned will be useful too you.
+Even if you're only using parts of our stack, I think that some of the things I learned will be useful too you.
 
 # It felt right (would do again in my next project)
 
@@ -46,7 +46,7 @@ but for the past few months I can say without reserve that Kotlin has been nothi
 Kotlin is Java, had it been designed in the past few years instead of having 20 years of legacy.
 Kotlin is Scala, had it been designed to be a productivity powerhouse instead of an academic language.
 
-It is pragmatic, elegant and with a very few footguns. It would be really painful for me to start a new project with
+It is pragmatic, elegant, and with very few footguns. It would be really painful for me to start a new project with
 Java instead of Kotlin.
 
 ## Postgres
@@ -147,15 +147,15 @@ to get the simplest features working.
 On the other side of the spectrum, we have Mobx. You feel really powerful when you design your first stores, because
 it just works.
 
-On the other hand, edge cases are rough. Some libraries like react-table just would not behave.
+On the other hand, edge cases are rough. Some libraries like react-table would just not behave.
 
 After using it for a year, I can probably list a few rules of thumbs:
 
-- Create wrappers using `<Observer />` for libraries using `shouldComponentUpdate` aggressively because they will mess up
+- Create wrappers using `<Observer />` for libraries using `shouldComponentUpdate` aggressively, because they will mess up
 with the expectations of the developers
 - Come up with strategies for serialization and deserialization early in the project with libraries like [serilizr](https://github.com/mobxjs/serializr).
 
-But it has a cost in terms of code and has a somewhat hidden learning curve that make it difficult to grasp for junior
+But all of this has a cost in terms of code and has a somewhat hidden learning curve that make it difficult to grasp for junior
 developers. 
 
 We also tried [mobx-state-tree](https://github.com/mobxjs/mobx-state-tree/) and I love the ideas behind the library.
@@ -185,10 +185,10 @@ And I did not even talk about HATEOAS or documentation.
 Creating a good REST API is definitely something you should strive for and take the time to get right, if your business
 model requires it.
 
-Otherwise, I would go straight for GraphQL. It requires some design too, of course.
+Otherwise, I would go straight for GraphQL.
 
-I just feel that thinking your API in term of a cluster of objects comes more naturally to developers.
-It favors emergent design and it forces your developers and your business to get together and figure out the 
+I feel that thinking your API in term of a cluster of objects comes more naturally to developers.
+It favors emergent design and it encourages your developers and your business to get together and figure out the 
 [aggregates](https://www.martinfowler.com/bliki/DDD_Aggregate.html) in your model.
 
 If you want to go down this road early on and not even bother writing a fully-fledged backend server I would review
@@ -202,8 +202,8 @@ to make the most of it.
 We started the project without strict checks and it was a significant endeavor to change it, so we never had the time
 to do it.
 
-Every time we got an "X is undefined" error in the frontend, I regretted not imposing `strict: true` at the start of
-the project. 
+Every time we got an "X is undefined" error in the frontend, I regretted not adding `strict: true` to the typescript 
+configuration at the start of the project. 
 
 # It felt wrong (would never do again)
 
@@ -213,16 +213,16 @@ We used Postgres in production and H2 (an in-memory database) for development an
 
 We had too many errors that we could only see after deploying the product to production.
 
-Fortunately, most of them are easy to fix.
+Fortunately, most of them were easy to fix.
 The errors we saw the most were differences in ordering and grouping between the two DBMS.
 
 Hence the rule: "every SQL query shall have an ORDER BY clause".
 
 You can probably overcome those inconsistencies by setting up a CI build where your tests run against Postgres.
 
-But more importantly, we were not able to take full advantages of features like 
+But more importantly, we were not able to take full advantage of features like 
 [window functions](https://blog.jooq.org/2013/11/03/probably-the-coolest-sql-feature-window-functions/) or 
-[JSON data types](https://www.compose.com/articles/is-postgresql-your-next-json-database/) to name a few.
+[JSON data types](https://www.compose.com/articles/is-postgresql-your-next-json-database/), to name a few.
 
 The next time I'm starting a project I will use the same DBMS in development and in production.
 
@@ -264,7 +264,7 @@ Moreover, you can only use the `internal` [keyword](https://kotlinlang.org/docs/
 in Kotlin by splitting your code in modules.
 
 You can also split the service layer into smaller modules, as you would if you were designing micro-services,
-but still use them in your monolith.
+and still use them in your monolith.
 
 # Conclusion
 
