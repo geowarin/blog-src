@@ -174,7 +174,7 @@ I have an idea of what a good rest API looks like.
 
 I think it involves a lot of design and bikeshedding.  
 
-When a developer is in charge of a new feature, he always has a lot of choices to make:
+When a developer is in charge of a new feature, they always has a lot of choices to make:
 
 - Should I add attributes to an existing REST resource? (overfetching)
 - Should I add a new REST resources? (duplication)
