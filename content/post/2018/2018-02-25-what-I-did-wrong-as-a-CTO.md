@@ -155,7 +155,7 @@ After using it for a year, I can probably list a few rules of thumbs:
 with the expectations of the developers
 - Come up with strategies for serialization and deserialization early in the project with libraries like [serilizr](https://github.com/mobxjs/serializr).
 
-But all of this has a cost in terms of code and has a somewhat hidden learning curve that make it difficult to grasp for junior
+But all of this has a cost in terms of code and mobx has a somewhat hidden learning curve that make it difficult to grasp for junior
 developers. 
 
 We also tried [mobx-state-tree](https://github.com/mobxjs/mobx-state-tree/) and I love the ideas behind the library.
@@ -187,7 +187,7 @@ model requires it.
 
 Otherwise, I would go straight for GraphQL.
 
-I feel that thinking your API in term of a cluster of objects comes more naturally to developers.
+I feel that thinking your API in terms of a cluster of objects comes more naturally to developers.
 It favors emergent design and it encourages your developers and your business to get together and figure out the 
 [aggregates](https://www.martinfowler.com/bliki/DDD_Aggregate.html) in your model.
 
