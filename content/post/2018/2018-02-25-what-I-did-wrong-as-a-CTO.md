@@ -186,7 +186,9 @@ And I did not even talk about HATEOAS or documentation.
 Creating a good REST API is definitely something you should strive for and take the time to get right, if your business
 model requires it.
 
-Otherwise, I would go straight for GraphQL.
+Otherwise, I would consider [GraphQL](http://graphql.org/) very seriously.
+
+In our case, our model looked like a tree and not like small separated entities. That's also something to consider.
 
 I feel that thinking your API in terms of a cluster of objects comes more naturally to developers.
 It favors emergent design and it encourages your developers and your business to get together and figure out the 
@@ -236,14 +238,30 @@ start of the day to boot it, and having a slightly worst developer experience is
 
 ## Server-Side Rendering
 
+When building a Single Page App, you depend on your javascript to create the HTML that the user will interact with.
+
+With this approach, you ask the server to run the javascript for the page that was requested, and send the resulting
+HTML directly to your clients.
+
+It is believed that your users will have a better experience with this technique, especially on lower-end devices that
+will struggle to execute a big javascript files.
+
+It is also believed that this wields better SEO results, as it easier for crawlers to parse HTML than execute javascript.
+
 At the beginning of the project, I was sure I could take advantage of SSR.
 I had set up a few projects in JS that leveraged SSR in the past, and studied libraries like 
 [nextjs](https://zeit.co/blog/next) carefully.
 
 On the JVM, it is a bit less common, but I managed to pull something off using [J2V8](https://github.com/eclipsesource/J2V8/).
 
-The truth is SSR is a trade-off and I think most of web applications don't need to invest precious time in server-rendered
+The truth is SSR is a trade-off and I think most of web applications don't need to invest time in server-rendered
 javascript.
+
+Besides, measuring the benefits of SSR is really tricky. You have to consider different metrics than the "time to render".
+Take, for example, [time to interactive](https://developers.google.com/web/tools/lighthouse/audits/time-to-interactive).
+
+It is a fascinating subject but it was foolish to spend time on this matter as SEO and slow processors were clearly
+not a priority for the business. 
 
 Removing Server-Side Rendering was a good call, and reduced the overall complexity of the server code.
 
@@ -268,8 +286,13 @@ Modules are a great way to enforce architectural decisions.
 Moreover, you can only use the `internal` [keyword](https://kotlinlang.org/docs/reference/visibility-modifiers.html) 
 in Kotlin by splitting your code into modules.
 
-You can also split the service layer into smaller modules, as you would if you were designing micro-services,
-and still use them in your monolith.
+Later in the project, when you figure out cluster of domain objects that work together well, you should also split the service 
+layer into smaller modules.
+
+Good examples might be the "order module", the "transaction module", or the "security module" depending on your domain.
+ 
+I like to thing of this approach as a stepping stone towards "micro-services", without the complexity of deploying them
+as separate network entities.
 
 # Conclusion
 
