@@ -219,6 +219,10 @@ The errors we saw the most were differences in ordering and grouping between the
 
 Hence the rule: "every SQL query shall have an ORDER BY clause".
 
+> As Lukas Eder pointed out in the comments:
+> If you don't need ordering, you should always avoid it, as ordering mostly incurs an O(N log N) operations
+> (apart from those rather rare cases where you can pull the data directly from an index).
+
 You can probably overcome those inconsistencies by setting up a CI build where your tests run against Postgres.
 
 But more importantly, we were not able to take full advantage of features like 
