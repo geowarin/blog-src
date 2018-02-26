@@ -240,13 +240,13 @@ start of the day to boot it, and having a slightly worst developer experience is
 
 When building a Single Page App, you depend on your javascript to create the HTML that the user will interact with.
 
-With this approach, you ask the server to run the javascript for the page that was requested, and send the resulting
+With Server-Side Rendering (SSR), you ask the server to run the javascript for the page that was requested, and then, send the resulting
 HTML directly to your clients.
 
 It is believed that your users will have a better experience with this technique, especially on lower-end devices that
-will struggle to execute a big javascript files.
+will struggle to process big javascript files.
 
-It is also believed that this wields better SEO results, as it easier for crawlers to parse HTML than execute javascript.
+It is also believed that this wields better SEO results, as it easier for crawlers to parse HTML than to execute javascript.
 
 At the beginning of the project, I was sure I could take advantage of SSR.
 I had set up a few projects in JS that leveraged SSR in the past, and studied libraries like 
@@ -254,7 +254,7 @@ I had set up a few projects in JS that leveraged SSR in the past, and studied li
 
 On the JVM, it is a bit less common, but I managed to pull something off using [J2V8](https://github.com/eclipsesource/J2V8/).
 
-The truth is SSR is a trade-off and I think most of web applications don't need to invest time in server-rendered
+The truth is SSR is a trade-off and I think most web applications don't need to invest time in server-rendered
 javascript.
 
 Besides, measuring the benefits of SSR is really tricky. You have to consider different metrics than the "time to render".
