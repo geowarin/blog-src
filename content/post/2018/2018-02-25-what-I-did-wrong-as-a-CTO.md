@@ -275,7 +275,7 @@ the project with multiple people working on the code.
 
 Make sure that every layer has clear boundaries and do not hesitate to split your project in small modules early on.
 
-For me, the bare minimum number of modules is 4:
+For example, these modules can be a good starting point:
 
 - `model`: mapping with your database and helpers
 - `services`: fetching and updating your database, only exports higher-level functions like Graphql endpoints
@@ -293,6 +293,12 @@ Good examples might be the "order module", the "transaction module", or the "sec
  
 I like to thing of this approach as a stepping stone towards "micro-services", without the complexity of deploying them
 as separate network entities.
+
+There is actually a continuum between an integrated system and a distributed system and you probably won't have to
+cross the line.
+
+For more insights, I recommend watching the [Majestic Modular Monoliths](https://speakerdeck.com/axelfontaine/majestic-modular-monoliths)
+talk by Axel Fontaine.
 
 # Conclusion
 
