@@ -23,6 +23,9 @@ defaultContentLanguage = "en"
 description = "Web developer"
 title404 = "Nothing's here!"
 
+[params.comments]
+enable = true
+
 [params.search]
 client = "algolia"
 
