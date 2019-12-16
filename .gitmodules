@@ -3,5 +3,4 @@
 	url = https://github.com/MunifTanjim/minimo
 [submodule "public"]
 	path = public
-	url = https://github.com/geowarin/geowarin.github.io
-	branch = master
+	url = git@github.com:geowarin/geowarin.github.io.git
