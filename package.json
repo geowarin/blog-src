@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "algolia-index": "node ./themes/minimo/scripts/generate-search-index-algolia.js"
+    "algolia-index": "node scripts/generate-search-index-algolia.js",
+    "lunr-index": "node ./themes/minimo/scripts/generate-search-index-lunr.js"
   },
   "repository": {
     "type": "git",
@@ -19,6 +20,7 @@
   "homepage": "https://github.com/geowarin/blog-src#readme",
   "dependencies": {
     "algoliasearch": "^3.35.1",
-    "glob": "^7.1.6"
+    "glob": "^7.1.6",
+    "lunr": "^2.3.8"
   }
 }

@@ -27,7 +27,7 @@ title404 = "Nothing's here!"
 enable = true
 
 [params.search]
-client = "algolia"
+client = "lunr"
 
 [params.search.algolia]
 appId = "7DRJRSRA5B"
@@ -62,8 +62,7 @@ sticky = true
 [params.widgets]
 header = ["breadcrumbs"]
 homepage = ["recent_posts"]
-# sidebar = ["about", "social_menu", "search"]
-sidebar = ["about", "social_menu"]
+sidebar = ["about", "search", "social_menu"]
 
 [params.opengraph.facebook]
 admins = [] # array of Facebook IDs

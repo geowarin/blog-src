@@ -1,0 +1,9 @@
+{{/* Generates a valid Algolia search index */}}
+{{- $.Scratch.Add "index" slice -}}
+{{- $section := $.Site.GetPage "section" .Section }}
+{{- range .Site.Pages -}}
+  {{- if .File.UniqueID -}}
+    {{- $.Scratch.Add "index" (dict "objectID" .File.UniqueID "date" .Date.UTC.Unix "description" .Description "expirydate" .ExpiryDate.UTC.Unix "fuzzywordcount" .FuzzyWordCount "kind" .Kind "lastmod" .Lastmod.UTC.Unix "permalink" .Permalink "publishdate" .PublishDate "readingtime" .ReadingTime "href" .RelPermalink "summary" .Summary "title" .Title "type" .Type "weight" .Weight "wordcount" .WordCount "section" .Section "tags" .Params.Tags "categories" .Params.Categories )}}
+  {{- end -}}
+{{- end -}}
+{{- $.Scratch.Get "index" | jsonify | safeJS -}}
