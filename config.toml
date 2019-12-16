@@ -19,12 +19,17 @@ pygmentsCodefences = true
 # Missing translations will default to this content language
 defaultContentLanguage = "en"
 
-[outputs]
-home = [ "HTML", "RSS", "JSON"]
-
 [params.info]
 description = "Web developer"
 title404 = "Nothing's here!"
+
+[params.search]
+client = "algolia"
+
+[params.search.algolia]
+appId = "7DRJRSRA5B"
+indexName = "blog"
+searchApiKey = "17da2ed829c7d13cb4fa75dc5f5b19b2"
 
 [params.assets]
 favicon = "favicon.ico"
@@ -44,17 +49,18 @@ dateFormat = "2006, Jan 02"
 listDateFormat = "2006, Jan 02"
 archiveDateFormat = "Jan 02"
 hideEntryNavigation = ["page"] # boolean / array of sections
-hideSocialMenu = false
 showReadingTime = true
 taxonomyCloudShuffle = true
 
 [params.sidebar]
-enable = false
+enable = true
 sticky = true
 
 [params.widgets]
+header = ["breadcrumbs"]
 homepage = ["recent_posts"]
-sidebar = ["about", "taxonomy_cloud"]
+# sidebar = ["about", "social_menu", "search"]
+sidebar = ["about", "social_menu"]
 
 [params.opengraph.facebook]
 admins = [] # array of Facebook IDs

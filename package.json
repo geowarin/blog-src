@@ -1,0 +1,24 @@
+{
+  "name": "blog-src",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "algolia-index": "node ./themes/minimo/scripts/generate-search-index-algolia.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/geowarin/blog-src.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/geowarin/blog-src/issues"
+  },
+  "homepage": "https://github.com/geowarin/blog-src#readme",
+  "dependencies": {
+    "algoliasearch": "^3.35.1",
+    "glob": "^7.1.6"
+  }
+}
