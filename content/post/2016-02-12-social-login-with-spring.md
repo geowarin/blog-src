@@ -254,7 +254,7 @@ perfect for prototyping.
 
 Here is the client code:
 
-```javascript
+```jsx harmony
 const LoginForm = () => (
     <form action="/signin/twitter" method="post">
         <h1>Please login</h1>

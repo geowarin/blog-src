@@ -158,7 +158,7 @@ Here is a quick glance at the Root component of our application.
 It is very classic, just note that Shasta adds support for additional PropTypes
 like routes or immutable types.  
 
-```js
+```jsx harmony
 import React from "react";
 import {Provider, Component, PropTypes} from "shasta";
 import {Router} from "shasta-router";
@@ -210,7 +210,7 @@ It leverages the ImmutableJS API to create those nice little one-liners.
 
 Here is how to use those reducers as actions in your views:
 
-```js
+```jsx harmony
 import React from "react";
 import {connect, Component} from "shasta";
 import actions from "../core/actions";
@@ -271,7 +271,7 @@ Under the hood, Tahoe uses superagent to make HTTP requests.
 
 Let's see how to use this in a view:
 
-```js
+```jsx harmony
 import React from "react";
 import {connect} from "shasta";
 import actions from "../core/actions";
@@ -358,7 +358,7 @@ response.define({
 Normalizr will create a map of jokes indexed by ids and store it in `api.entities.jokes`.
 Which allows us to write something like so:
 
-```js
+```jsx harmony
 @connect({
   jokes: 'api.entities.jokes'
 })
@@ -380,8 +380,7 @@ export default class ChuckFact extends DataComponent {
 
 We can also use a function in the `@connect` decorator:
 
-```js
-
+```jsx harmony
 const getFirstJoke = (store) => {
   return store.getIn(['api', 'subsets', 'myJoke', 'data', 'value', 'joke']);
 };
@@ -405,7 +404,6 @@ export default class ChuckFact extends DataComponent {
     </div>
   }
 }
-
 ```
 
 ## Conclusion
