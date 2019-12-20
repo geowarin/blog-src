@@ -29,4 +29,6 @@ You get this:
 
 Much better!
 
-Sources: [Intellij blog](https://blog.jetbrains.com/idea/2019/10/whats-new-in-intellij-idea-2019-3-eap6-improved-reactor-support-and-a-huge-pack-of-fixes/)
+Sources: 
+
+- [Intellij blog](https://blog.jetbrains.com/idea/2019/10/whats-new-in-intellij-idea-2019-3-eap6-improved-reactor-support-and-a-huge-pack-of-fixes/)
