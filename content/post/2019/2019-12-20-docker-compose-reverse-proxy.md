@@ -9,7 +9,6 @@ categories:
  - architecture
 description: In my search for replacing google analytics, I stumbled upon ackee, a very simple analytics solution. 
     However, running it via docker-compose on my machine required me to set up SSL and CORS with nginx.
-draft: true
 ---
 
 # The problem
