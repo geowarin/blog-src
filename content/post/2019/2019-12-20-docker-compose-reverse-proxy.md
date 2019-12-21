@@ -26,7 +26,7 @@ On the other hand, the website whose analytics will be tracked needs to include 
 ```
 
 The problem is that `localhost:1313`, where my blog runs locally, cannot send json requests to `https:localhost`
-or whichever host ackee is running on, if they differ in name/port, etc.
+or whichever host Ackee is running on, if they differ in name/port, etc.
 
 This is a browser built-in protection know as *CORS*.
 
@@ -51,7 +51,7 @@ Please note:
 - You should use a properly signed certificate in production
 
 However, I thought it would be a good occasion to learn something new. 
-And I really wanted ackee to work locally.
+And I really wanted Ackee to work locally.
 
 # The solution
 
@@ -211,7 +211,7 @@ services:
       - ./data:/data/db
 ```
 
-Note the `depends_on` line which will make the ackee container available inside the docker network on http://ackee.
+Note the `depends_on` line which will make the Ackee container available inside the docker network on http://ackee.
 
 With that, we have a nodeJS application running behind nginx with HTTPS and CORS enabled! 
 
