@@ -64,10 +64,12 @@ I just added docker-compose and CORS headers into the mix.
 ## Generating the cerficates
 
 Here is a shell script that will create `self-signed.crt`, `self-signed.key` and `dhparam.pem`, your self-signed certificates.
-It will also add it to the macOS trustore. 
+It will also add it to the macOS trust store.
+
+This will work immediately with Chrome. 
+Firefox has its own store and you will have to manually add the certificate upon the first connection.
 
 For other platforms, [see here](https://github.com/Busindre/How-to-Add-trusted-root-certificates).
-Firefox has its own store and you will have to manually add the certificate upon the first connection.
 
  ```shell script
 #!/usr/bin/env bash
