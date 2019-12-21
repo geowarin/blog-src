@@ -1,5 +1,5 @@
 ---
-title: "docker-compose SSL/CORS Reverse Proxy on localhost"
+title: "docker-compose SSL CORS Reverse Proxy on localhost"
 date: 2019-12-21T00:24:53+01:00
 toc: false
 tags:
@@ -63,7 +63,9 @@ I just added docker-compose and CORS headers into the mix.
 ## Generating the cerficates
 
 Here is a shell script that will create `self-signed.crt`, `self-signed.key` and `dhparam.pem`, your self-signed certificates.
-It will also add it to the macOS trustore. For other platforms, [see here](https://github.com/Busindre/How-to-Add-trusted-root-certificates).
+It will also add it to the macOS trustore. 
+
+For other platforms, [see here](https://github.com/Busindre/How-to-Add-trusted-root-certificates).
 Firefox has its own store and you will have to manually add the certificate upon the first connection.
 
  ```shell script
@@ -219,3 +221,4 @@ Resources:
 - [Github repository](https://github.com/geowarin/docker-compose-nginx)
 - [Original article](https://nickolaskraus.org/articles/how-to-create-a-self-signed-certificate-for-nginx-on-macos/)
 - [Why should I use a Reverse Proxy if Node.js is Production-Ready?](https://medium.com/intrinsic/why-should-i-use-a-reverse-proxy-if-node-js-is-production-ready-5a079408b2ca)
+- [How-to: Adding trusted root certificates](https://github.com/Busindre/How-to-Add-trusted-root-certificates)
