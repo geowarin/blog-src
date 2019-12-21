@@ -1,5 +1,5 @@
 ---
-title: "docker-compose SSL CORS Reverse Proxy on localhost"
+title: "Reverse proxy on docker-compose with CORS and SSL"
 date: 2019-12-21T00:24:53+01:00
 toc: false
 tags:
@@ -7,14 +7,13 @@ tags:
  - nginx
 categories:
  - architecture
-description: In my search for replacing google analytics, I stumbled upon ackee, a very simple analytics solution. 
-    However, running it via docker-compose on my machine required me to set up SSL and CORS with nginx.
+description: How to set up a reverse-proxy with CORS and SSL, with docker-compose and a self-signed certificate.
 ---
 
 # The problem
 
 [Ackee](https://github.com/electerious/Ackee) is a neat self-hosted analytics solution for simple needs (e.g. a blog).
-On the repo, the authors give instructions to run the tool, a nodejs application, via docker-compose.
+On the repo, the authors give instructions to run the tool, a node application, via docker-compose.
 
 On the other hand, the website whose analytics will be tracked needs to include a script that will look like this:
 
@@ -28,7 +27,7 @@ On the other hand, the website whose analytics will be tracked needs to include 
 The problem is that `localhost:1313`, where my blog runs locally, cannot send json requests to `https:localhost`
 or whichever host Ackee is running on, if they differ in name/port, etc.
 
-This is a browser built-in protection know as *CORS*.
+This is a browser built-in protection known as *CORS*.
 
 To allow the browser to make a certain type of requests (like json request) to another host, this host must explicitly
 allow it by responding with the following headers to a preflight request (with the OPTION http verb):
@@ -44,6 +43,8 @@ header.
 More info can be found in the [fetch specification](https://fetch.spec.whatwg.org/#http-cors-protocol)
 
 This is a good use-case for a [reverse-proxy](https://medium.com/intrinsic/why-should-i-use-a-reverse-proxy-if-node-js-is-production-ready-5a079408b2ca).
+
+We'll use nginx and a self-signed certificate for SSL.
 
 Please note:
 - You should avoid using wild-card in CORS headers in production
@@ -146,7 +147,7 @@ http {
 Note the `proxy_pass` line that will reference the site we reverse-proxy.
 With docker-compose the hostname will be the name of the container listed in `docker-compose.yml`.
 
-We know that the nodeJS server runs on port 3000.
+We know that the node server runs on port 3000.
 
 You can also see that nginx will automatically add the CORS headers we previously discussed.
 
@@ -213,7 +214,7 @@ services:
 
 Note the `depends_on` line which will make the Ackee container available inside the docker network on http://ackee.
 
-With that, we have a nodeJS application running behind nginx with HTTPS and CORS enabled! 
+With that, we have a node application running behind nginx with HTTPS and CORS enabled! 
 
 ![It works](/assets/images/articles/2019/2019-12-21-success.png)
 
