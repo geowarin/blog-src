@@ -10,6 +10,7 @@ tags:
 - spring mvc
 title: Chapter 5 - Crafting a RESTful application
 url: /book/chapter-5-crafting-a-restful-application.html
+weight: 5
 ---
 
 In this chapter of [Mastering Spring MVC 4](/mastering-spring-mvc4.html), we’ll tackle main principles of a RESTful architecture. We’ll learn how to convert data to JSON and handle different media types in the application.

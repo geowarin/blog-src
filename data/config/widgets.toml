@@ -6,7 +6,7 @@ logo = "/images/logo.png"
 [recent_posts]
 title = ""
 length = 10
-excludeTypes = ["page"]
+excludeTypes = ["page", "mastering-spring-mvc-4"]
 
 [social_menu]
 title = "Social"

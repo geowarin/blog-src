@@ -11,6 +11,7 @@ tags:
 - spring mvc
 title: Chapter 9 - Deploying to the cloud
 url: /book/chapter-9-deploying-to-the-cloud.html
+weight: 9
 ---
 
 In this chapter of [Mastering Spring MVC 4](/mastering-spring-mvc4.html), you will deploy your application on the cloud and invite the whole world to see!

@@ -10,6 +10,7 @@ tags:
 - spring mvc
 title: Chapter 1 - Setting up a Spring web application in no time
 url: /book/chapter-1-setting-up-a-spring-web-application-in-no-time.html
+weight: 1
 ---
 
 I just finished writing the first chapter of [Mastering Spring MVC 4](/mastering-spring-mvc4.html).

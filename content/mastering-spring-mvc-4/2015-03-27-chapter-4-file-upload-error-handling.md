@@ -10,6 +10,7 @@ tags:
 - spring mvc
 title: Chapter 4 - File Upload and Error Handling
 url: /book/chapter-4-file-upload-error-handling.html
+weight: 4
 ---
 
 In the fourth chapter of [Mastering Spring MVC 4](/mastering-spring-mvc4.html)

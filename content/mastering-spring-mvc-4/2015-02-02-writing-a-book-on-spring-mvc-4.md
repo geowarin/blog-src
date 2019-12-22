@@ -10,6 +10,7 @@ tags:
 - spring mvc
 title: Writing a book on Spring MVC 4
 url: /book/writing-a-book-on-spring-mvc-4.html
+weight: 0
 ---
 
 Good news everyone!

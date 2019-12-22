@@ -124,9 +124,6 @@ weight = 0
 identifier = "repository"
 url = "https://github.com/geowarin/blog-src"
 
-[blackfriday]
-hrefTargetBlank = true
-
 [languages]
 # edit this block for your own language
 [languages.en]

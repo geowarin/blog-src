@@ -10,6 +10,7 @@ tags:
 - spring mvc
 title: Chapter 2 - Mastering the MVC Architecture
 url: /book/chapter-2-mastering-the-mvc-architecture.html
+weight: 2
 ---
 
 I was so busy writing the third chapter of [Mastering Spring MVC 4](/mastering-spring-mvc4.html), I did not take the time to write about chapter 2.

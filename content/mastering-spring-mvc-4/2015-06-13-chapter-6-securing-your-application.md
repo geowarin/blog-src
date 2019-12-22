@@ -10,6 +10,7 @@ tags:
 - spring mvc
 title: Chapter 6 - Securing your application
 url: /book/chapter-6-securing-your-application.html
+weight: 6
 ---
 
 In this chapter of [Mastering Spring MVC 4](/mastering-spring-mvc4.html), we’ll learn how to secure our web application and also how to cope with the security challenges of modern, distributed web applications.

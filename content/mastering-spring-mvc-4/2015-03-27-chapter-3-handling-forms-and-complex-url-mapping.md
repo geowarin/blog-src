@@ -8,6 +8,7 @@ tags:
 - spring mvc
 title: Chapter 3 - Handling forms and complex URL mapping
 url: /book/chapter-3-handling-forms-and-complex-url-mapping.html
+weight: 3
 ---
 
 The third chapter of [Mastering Spring MVC 4](/mastering-spring-mvc4.html) is about the cornerstone of web application: forms.

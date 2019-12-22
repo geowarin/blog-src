@@ -10,6 +10,7 @@ tags:
 - spring mvc
 title: Chapter 7 - Leaving nothing to luck with unit and acceptance tests
 url: /book/chapter-7-unit-and-acceptance-tests.html
+weight: 7
 ---
 
 In this chapter, we will make sure our application never regresses thanks to a

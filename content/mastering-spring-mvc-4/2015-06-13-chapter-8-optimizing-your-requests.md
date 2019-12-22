@@ -10,6 +10,7 @@ tags:
 - spring mvc
 title: Chapter 8 - Optimizing your requests
 url: /book/chapter-8-optimizing-your-requests.html
+weight: 8
 ---
 
 In this chapter of [Mastering Spring MVC 4](/mastering-spring-mvc4.html), we will
