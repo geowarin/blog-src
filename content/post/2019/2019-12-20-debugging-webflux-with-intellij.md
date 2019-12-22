@@ -23,6 +23,10 @@ And click on this little funnel:
 
 ![Funnel](/assets/images/articles/2019/2019-12-20-funnel.png)
 
+Also ensure that you have the reactor plugin and that its properly configured.
+
+![Plugin config](/assets/images/articles/2019/2019-12-22-webflux-config.png)
+
 You get this:
 
 ![Wow](/assets/images/articles/2019/2019-12-20-clean-stack.png)

@@ -32,9 +32,6 @@ Then you want to check the **Share throught VCS** checkbox on the top right corn
 
 ![Xml configuration file](/assets/images/articles/2019/2019-12-22-share-config.png)
 
-Also ensure that you have the reactor plugin and that its properly configured.
-
-![Plugin config](/assets/images/articles/2019/2019-12-22-webflux-config.png)
 
 
 
