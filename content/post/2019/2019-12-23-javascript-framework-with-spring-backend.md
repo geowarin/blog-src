@@ -44,8 +44,9 @@ fun corsFilter(corsProperties: CorsProperties): CorsWebFilter {
 
 We run the frontend with its included web server on `localhost:1234`. 
 The spring backend runs on `localhost:8080`. 
-Navigating on `localhost:1234`, you will see that the frontend is able to call web services because the backend is 
-configured to accept CORS request coming from this host.
+
+Navigating on `localhost:1234`, you will see that the frontend is able to call web services because the backend allows
+CORS from that origin.
 
 Pros:
 - Close to a production environment
