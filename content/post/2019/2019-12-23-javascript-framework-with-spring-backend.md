@@ -23,7 +23,7 @@ Assumptions:
 The [github repository](https://github.com/geowarin/boot-js) shows four different solutions.
 
 
-# 1. CORS
+## 1. CORS
 
 The most obvious solution is to set up the backend to allow [Cross-Origin Resource Sharing](https://developer.mozilla.org/en-US/docs/Web/HTTP/CORS) (CORS)
 with the frontend, which runs on the development web server.
@@ -56,7 +56,7 @@ Cons:
 - CORS?
 
 
-# 2. Embed javascript into the backend
+## 2. Embed javascript into the backend
 
 Another solution is to embed the frontend resources directly in the spring server.
 The advantage is that we have only one web server and everything is on the same host.
@@ -109,7 +109,7 @@ Cons:
 - Clunky hot reloading
 - We cannot scale the backend and the frontend independently
 
-# 3. Javascript proxy
+## 3. Javascript proxy
 
 You might do the opposite, run an express web server which includes your bundler and proxies requests to `localhost:8080`.
 
@@ -146,7 +146,7 @@ Pros:
 Cons:
 - Not a production solution (needs to be complemented with another solution)
 
-# 4. Reverse proxy
+## 4. Reverse proxy
 
 We can run a third web server that routes both to our frontend and backend. 
 This is simple enough thanks to `docker-compose`.
