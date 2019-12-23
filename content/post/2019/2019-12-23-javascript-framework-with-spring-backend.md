@@ -1,5 +1,5 @@
 ---
-title: "Javascript Framework With Spring Backend"
+title: "Run your frontend alongside spring boot"
 date: 2019-12-23T01:20:59+01:00
 toc: false
 tags:
