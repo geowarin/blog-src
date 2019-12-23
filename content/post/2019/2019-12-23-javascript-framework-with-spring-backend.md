@@ -15,7 +15,7 @@ Assumptions:
 - Your backend serves the API (REST, graphQL)
 - You build your javascript with a separate bundler (parcel, webpack)
 - Your frontend uses a push state (HTML 5 history) router
-- You want hot module reload (HMR) for the best developer experience
+- You want hot module reloading (HMR) for the best developer experience
 
 ## TLDR;
 
@@ -57,7 +57,7 @@ Cons:
 
 ## 2. Embed javascript into the backend
 
-Another solution is to embed the frontend resources directly in the spring server.
+Another solution is to embed the frontend resources directly inside the spring server, as static resources.
 The advantage is that we have only one web server and everything is on the same host.
 
 ```kotlin
@@ -195,6 +195,15 @@ Pros:
 
 Cons:
 - 3 processes
+
+## Conclusion
+
+Depending on how you wish to deploy your application, you might choose one of the approaches above or even mix them to 
+reach developer nirvana.
+
+What about you? How do you develop your full stack application?
+
+I'd love to have your input!  
 
 Sources:
 - [Github repository](https://github.com/geowarin/boot-js)
